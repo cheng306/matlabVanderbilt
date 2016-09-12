@@ -1,0 +1,6 @@
+nargin
+nargot
+persistent
+isscalar
+isempty
+rng()

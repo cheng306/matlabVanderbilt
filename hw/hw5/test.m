@@ -1,9 +1,10 @@
-function r =test(a,b)
-persistent c
-if nargin<2
-    c=4;
-    if isempty(c)
-        fprintf('empty\n');
-    end
+function c =test
+persistent d
+if isempty(d)
+    d=0;
 end
+
+d=d+1
+c=d;
+    
 end

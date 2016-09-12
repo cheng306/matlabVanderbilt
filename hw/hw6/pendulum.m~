@@ -1,0 +1,15 @@
+function T = pendulum(L,a0)
+    dt=1e-6;
+    angle=a0;
+    tt=0;
+    g=9.8;
+    w=0;
+    while angle~=
+        a=-g*sin(angle)/L;
+        w=w+a*dt;
+        angle=angle+w*dt;
+        tt=tt+dt;
+    end
+    T=tt*4;
+end
+    

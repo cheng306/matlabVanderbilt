@@ -1,4 +1,5 @@
-x=2;
-if x==2
-    fprintf('good');
-end
+%% s1
+fprintf('hi')
+
+%% s2
+fprintf('%s','hi2')
